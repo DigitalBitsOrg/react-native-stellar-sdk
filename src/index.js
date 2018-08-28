@@ -1,5 +1,5 @@
 import {randomBytesAsync} from './crypto';
-import {Keypair} from 'stellar-sdk';
+import {Keypair} from 'digitalbits-sdk';
 
 Keypair.randomAsync = function randomAsync() {
     return randomBytesAsync(32)
@@ -7,8 +7,8 @@ Keypair.randomAsync = function randomAsync() {
 };
 
 Keypair.random = function random() {
-    throw new Error('Use Stellar.Keypair.randomAsync for React Native');
+    throw new Error('Use DigitalBits.Keypair.randomAsync for React Native');
 };
 
-export * from 'stellar-sdk';
+export * from 'digitalbits-sdk';
 export default module.exports;

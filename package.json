@@ -1,16 +1,16 @@
 {
-  "name": "@pigzbe/react-native-stellar-sdk",
+  "name": "react-native-digitalbits-sdk",
   "version": "1.0.3",
-  "description": "Stellar SDK for React Native",
-  "author": "Ian McGregor <ian@mcgregor.codes>",
+  "description": "DigitalBits SDK for React Native",
+  "author": "Ihor Demkovych <i.demkovych@geniusee.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pigzbe/react-native-stellar-sdk"
+    "url": "https://github.com/DigitalBitsOrg/react-native-digitalbits-sdk"
   },
-  "main": "stellar-sdk.js",
+  "main": "digitalbits-sdk.js",
   "scripts": {
-    "axiosfix": "cd node_modules/stellar-sdk && yarn upgrade axios && yarn add axios",
+    "axiosfix": "cd node_modules/digitalbits-sdk && yarn upgrade axios && yarn add axios",
     "start": "webpack",
     "test": "jest",
     "publish": "npm publish --access public"
@@ -27,7 +27,7 @@
     "jest": "^22.4.3",
     "react-native": "^0.54.4",
     "react-native-event-source": "^1.0.1",
-    "stellar-sdk": "^0.8.0",
+    "digitalbits-sdk": "git+ssh://git@github.com/DigitalBitsOrg/js-digitalbits-sdk.git",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13"
   },

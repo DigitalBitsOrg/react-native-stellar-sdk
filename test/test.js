@@ -1,4 +1,4 @@
-import {Keypair} from '../stellar-sdk';
+import {Keypair} from '../digitalbits-sdk';
 
 describe('Test', () => {
     it('Creates Keypair', () => {

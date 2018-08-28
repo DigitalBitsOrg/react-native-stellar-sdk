@@ -8,9 +8,9 @@ module.exports = {
     entry: path.resolve(__dirname, 'src/index.js'),
 
     output: {
-        filename: 'stellar-sdk.js',
+        filename: 'digitalbits-sdk.js',
         path: path.resolve(__dirname, './'),
-        library: 'StellarSdk',
+        library: 'DigitalBitsSdk',
         libraryTarget: 'umd'
     },
 
